@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(248, 225, 197);
+}
+
+header.menu {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    width: 100%;
+}
+
+#menu {
+    display: flex;
+    align-content: end;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    width: 30vw;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li{
+    list-style: none;
+}
+
+.logo{
+    width: 10vw;
+    height: 20vh;
+}
+
+.principal{
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+
+}
+
+.titulo_index{
+    font-size: 60px;
+    text-align: center;
+    color: coral;
+}
+
+.img_index{
+    width: 80%;
+    display: flex;
+    
+}
+
+.texto_index{
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.rodape{
+    background-color: rgb(132, 192, 241);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.rodape_contato, .rodape_dados_contato, .rodape_midias_sociais{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;    
+}
+
+.dados_li, .contato_li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dados_li:hover{
+    text-decoration: navy;
+}
